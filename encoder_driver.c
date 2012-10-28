@@ -63,19 +63,7 @@ int get_r_motor_speed()
 	return cnt;
 }
 
-/*
-float get_l_motor_speed()
-{
-	const float coeff = 1000.0 / (CPR * DELTA_T);
 
-	int cnt = countL_prev;	
-
-	float speed = coeff * cnt;
-	 	
-	return speed;
-}
-
-*/
 int get_l_motor_speed()
 {
 	

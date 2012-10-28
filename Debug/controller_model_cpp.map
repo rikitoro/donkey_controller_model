@@ -1,4 +1,4 @@
-Optimizing Linkage Editor (V.10.01.00.000)        25-Oct-2012 13:56:49
+Optimizing Linkage Editor (V.10.01.00.000)        28-Oct-2012 09:38:13
 
 *** Options ***
 
@@ -7,19 +7,24 @@ Optimizing Linkage Editor (V.10.01.00.000)        25-Oct-2012 13:56:49
 -nomessage
 -list="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\controller_model_cpp.map"
 -nooptimize
--start=data_SE,data_SO,bss_SE,bss_SO,data_NE,data_NO,bss_NE,bss_NO,data_FE,data_FO,bss_FE,bss_FO/0400,data_SEI,data_SOI,data_NEI,data_NOI,rom_NE,rom_NO,data_FEI,data_FOI,rom_FE,rom_FO/0F000
+-start=data_SE,data_SO,bss_SE,bss_SO,data_NE,data_NO,bss_NE,bss_NO,data_FE,data_FO,bss_FE,bss_FO/0400,data_SEI,data_SOI,data_NEI,data_NOI,rom_NE,rom_NO,data_FEI,data_FOI,rom_FE,rom_FO,C$INIT,C$VTBL/0F000
 -nologo
 -stack
 -total_size
+-input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\Accelerator.obj"
 -library="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\controller_model_cpp.lib"
--input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\controller_model_cpp.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\encoder_driver.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\encoder_driver_test.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\led_driver.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\led_driver_test.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\model_test.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\motor_driver.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\motor_driver_test.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\MotorPwm.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\MotorSpeed.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\ncrt0.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\RotaryEncoder.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\SpeedMeter.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\switch_driver.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\switch_driver_test.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\utility.obj"
@@ -44,21 +49,21 @@ bss_SE
 bss_SO
                                   00000400  00000400         0   1
 data_NE
-                                  00000400  00000407         8   2
+                                  00000400  00000423        24   2
 data_NO
-                                  00000408  00000408         0   1
+                                  00000424  00000424         0   1
 bss_NE
-                                  00000408  00000408         0   1
+                                  00000424  0000042b         8   2
 bss_NO
-                                  00000408  00000408         0   1
+                                  0000042c  0000042c         0   1
 data_FE
-                                  00000408  00000408         0   1
+                                  0000042c  0000042c         0   1
 data_FO
-                                  00000408  00000408         0   1
+                                  0000042c  0000042c         0   1
 bss_FE
-                                  00000408  00000408         0   1
+                                  0000042c  0000042c         0   1
 bss_FO
-                                  00000408  00000408         0   1
+                                  0000042c  0000042c         0   1
 heap
                                   00000400  00000400         0   1
 data_SEI
@@ -66,23 +71,25 @@ data_SEI
 data_SOI
                                   0000f000  0000f000         0   1
 data_NEI
-                                  0000f000  0000f007         8   2
+                                  0000f000  0000f023        24   2
 data_NOI
-                                  0000f008  0000f008         0   1
+                                  0000f024  0000f024         0   1
 rom_NE
-                                  0000f008  0000f008         0   1
+                                  0000f024  0000f024         0   1
 rom_NO
-                                  0000f008  0000f008         0   1
+                                  0000f024  0000f024         0   1
 data_FEI
-                                  0000f008  0000f008         0   1
+                                  0000f024  0000f024         0   1
 data_FOI
-                                  0000f008  0000f008         0   1
+                                  0000f024  0000f024         0   1
 rom_FE
-                                  0000f008  0000f00d         6   2
+                                  0000f024  0000f029         6   2
 rom_FO
-                                  0000f00e  0000f00e         0   1
+                                  0000f02a  0000f02a         0   1
+C$VTBL
+                                  0000f02a  0000f0b9        90   2
 program
-                                  000f0000  000f0ddd       dde   2
+                                  000f0000  000f182b      182c   2
 VARIABLE_VECTOR
                                   000ffe00  000ffeff       100   1
 FIXED_VECTOR

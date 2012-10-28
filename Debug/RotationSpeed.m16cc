@@ -1,0 +1,6 @@
+-lang=cpp
+-c
+-finfo
+-dir "D:\yoshiaki\devel\MDD\controller_model_cpp\Debug"
+-silent
+"D:\yoshiaki\devel\MDD\controller_model_cpp\RotationSpeed.cpp"

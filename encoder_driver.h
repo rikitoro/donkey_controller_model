@@ -7,6 +7,8 @@
 #pragma INTERRUPT int_int3		/*左車輪A相*/
 #pragma INTERRUPT int_int4		/*左車輪B相*/
 
+
+
 /**
  * ロータリエンコーダ使用時の初期化
  */

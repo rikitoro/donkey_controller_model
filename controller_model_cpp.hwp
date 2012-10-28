@@ -130,21 +130,30 @@
 "Object file" "Renesas OptLinker" "Renesas M16C Assembler" 
 "Object file" "Renesas OptLinker" "Renesas M16C C/C++ Compiler" 
 [PROJECT_FILES]
-"D:\yoshiaki\devel\MDD\controller_model_cpp\controller_model_cpp.cpp" "User" "C++ source file" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\encoder_driver.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\encoder_driver_test.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\led_driver.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\led_driver_test.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\motor_driver.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\motor_driver_test.c" "User" "C source file" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\MotorSpeed.cpp" "User" "C++ source file|model" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\RotaryEncoder.cpp" "User" "C++ source file|hardware" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\SpeedMeter.cpp" "User" "C++ source file|model" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\encoder_driver.c" "User" "C source file|driver" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\encoder_driver_test.c" "User" "C source file|driver|test" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\led_driver.c" "User" "C source file|driver" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\led_driver_test.c" "User" "C source file|driver|test" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\model_test.cpp" "User" "C++ source file|application" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\motor_driver.c" "User" "C source file|driver" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\motor_driver_test.c" "User" "C source file|driver|test" 2 
 "D:\yoshiaki\devel\MDD\controller_model_cpp\ncrt0.a30" "User" "Assembly source file" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\switch_driver.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\switch_driver_test.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\utility.c" "User" "C source file" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\switch_driver.c" "User" "C source file|driver" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\switch_driver_test.c" "User" "C source file|driver|test" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\utility.c" "User" "C source file|utility" 2 
 [FOLDER]
 "Assembly source file" "Assembly source file" 
 "C source file" "C source file" 
+"C source file|driver" "" 
+"C source file|driver|test" "" 
+"C source file|utility" "" 
 "C++ source file" "C++ source file" 
+"C++ source file|application" "" 
+"C++ source file|hardware" "" 
+"C++ source file|model" "" 
 [GENERAL_DATA_PROJECT]
 "USE_CUSTOM_LINKAGE_ORDER" "1" 
 [ON_DEMAND_COMPONENTS_LOADED]
@@ -153,71 +162,82 @@
 "DefaultSession" "D:\yoshiaki\devel\MDD\controller_model_cpp\DefaultSession.hsf" 0 
 [GENERAL_DATA_SESSION_DefaultSession]
 [OPTIONS_Debug_Renesas M16C Assembler]
-"Assembly source file" "0d58aad97b2bdc10" 3 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\ncrt0.a30" "0d58aad97b2bdc10" 3 
+"Assembly source file" "0d58aad97b2bdc10" 4 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\ncrt0.a30" "0d58aad97b2bdc10" 4 
 [OPTIONS_Debug_Renesas M16C C/C++ Compiler]
-"C source file" "0d58aad97b2bdc10" 2 
-"C++ source file" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\controller_model_cpp.cpp" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\encoder_driver.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\encoder_driver_test.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\led_driver.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\led_driver_test.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\motor_driver.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\motor_driver_test.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\switch_driver.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\switch_driver_test.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\utility.c" "0d58aad97b2bdc10" 2 
+"C source file" "0d58aad97b2bdc10" 3 
+"C++ source file" "0aa7bff48b2bdc10" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\MotorSpeed.cpp" "0ce188c9c84bdc10" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\RotaryEncoder.cpp" "0b78c409f84bdc10" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\SpeedMeter.cpp" "03a4b67be84bdc10" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\encoder_driver.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\encoder_driver_test.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\led_driver.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\led_driver_test.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\model_test.cpp" "0137cf18394bdc10" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\motor_driver.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\motor_driver_test.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\switch_driver.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\switch_driver_test.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\utility.c" "0d58aad97b2bdc10" 3 
 [OPTIONS_Debug_Renesas M16C C/C++ Library Generator]
 "Single Shot" "0d58aad97b2bdc10" 1 
 [OPTIONS_Debug_Renesas M16C Configurator]
-"Single Shot" "0d58aad97b2bdc10" 5 
+"Single Shot" "0137cf18394bdc10" 6 
 [OPTIONS_Debug_Renesas M16C ConfiguratorR8C]
-"Single Shot" "0d58aad97b2bdc10" 5 
+"Single Shot" "0137cf18394bdc10" 6 
 [OPTIONS_Debug_Renesas OptLinker]
-"Single Shot" "0d58aad97b2bdc10" 4 
+"Single Shot" "051f1028394bdc10" 5 
 [OPTIONS_Debug]
 "" 0 
-"[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] " 5 
-"[V|VERSION|1] [S|LIST|LM] [B|INSPECTOR|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DISABLES_MESSAGE|1] " 3 
+"[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] " 6 
+"[V|VERSION|1] [S|LANG|CPP] [S|OUTPUT|OBJECTCODE] [B|INSPECTOR|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [S|MISRA|ALL] [B|SILENT|1]
+" 2 
+"[V|VERSION|1] [S|LIST|LM] [B|INSPECTOR|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DISABLES_MESSAGE|1] " 4 
 "[V|VERSION|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [S|MODE|BUILD/CHANGED]" 1 
-"[V|VERSION|1] [S|OUTPUT|OBJECTCODE] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|INSPECTOR|1] [B|SILENT|1] " 2 
-"[V|VERSION|6] [B|OPTIMIZE|0] [B|DEBUG|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|OTHER|^"-change_message=information=1100,1322,1410^"] [S|FORM|STYPE] [B|TOTAL_SIZE|1] [B|STACK|1] " 4 
+"[V|VERSION|1] [S|OUTPUT|OBJECTCODE] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|INSPECTOR|1] [B|SILENT|1] " 3 
+"[V|VERSION|6] [S|FORM|STYPE] [S|BYTE_COUNT_VALUE|FF] [B|DEBUG|1] [S|CRC|NONE|00000000] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|SHOW|METHODCUSTOM|] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [I|SPACE|^"FF^"] [B|OPTIMIZE|0] [S|START|data_SE,data_SO,bss_SE,bss_SO,data_NE,data_NO,bss_NE,bss_NO,data_FE,data_FO,bss_FE,bss_FO(0400)|data_SEI,data_SOI,data_NEI,data_NOI,rom_NE,rom_NO,data_FEI,data_FOI,rom_FE,rom_FO,C$INIT,C$VTBL(0F000)] [B|STACK|1] [B|TOTAL_SIZE|1] [S|OTHER|^"-change_message=information=1100,1322,1410^"]
+" 5 
 [EXCLUDED_FILES_Debug]
 [LINKAGE_ORDER_Debug]
 "D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\ncrt0.r30" 
 [GENERAL_DATA_CONFIGURATION_Debug]
 [OPTIONS_Release_Renesas M16C Assembler]
-"Assembly source file" "0d58aad97b2bdc10" 3 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\ncrt0.a30" "0d58aad97b2bdc10" 3 
+"Assembly source file" "0d58aad97b2bdc10" 4 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\ncrt0.a30" "0d58aad97b2bdc10" 4 
 [OPTIONS_Release_Renesas M16C C/C++ Compiler]
-"C source file" "0d58aad97b2bdc10" 2 
-"C++ source file" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\controller_model_cpp.cpp" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\encoder_driver.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\encoder_driver_test.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\led_driver.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\led_driver_test.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\motor_driver.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\motor_driver_test.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\switch_driver.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\switch_driver_test.c" "0d58aad97b2bdc10" 2 
-"D:\yoshiaki\devel\MDD\controller_model_cpp\utility.c" "0d58aad97b2bdc10" 2 
+"C source file" "0d58aad97b2bdc10" 3 
+"C++ source file" "0aa7bff48b2bdc10" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\MotorSpeed.cpp" "0ce188c9c84bdc10" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\RotaryEncoder.cpp" "0b78c409f84bdc10" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\SpeedMeter.cpp" "03a4b67be84bdc10" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\encoder_driver.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\encoder_driver_test.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\led_driver.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\led_driver_test.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\model_test.cpp" "0137cf18394bdc10" 2 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\motor_driver.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\motor_driver_test.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\switch_driver.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\switch_driver_test.c" "0d58aad97b2bdc10" 3 
+"D:\yoshiaki\devel\MDD\controller_model_cpp\utility.c" "0d58aad97b2bdc10" 3 
 [OPTIONS_Release_Renesas M16C C/C++ Library Generator]
 "Single Shot" "0d58aad97b2bdc10" 1 
 [OPTIONS_Release_Renesas M16C Configurator]
-"Single Shot" "0d58aad97b2bdc10" 5 
+"Single Shot" "0137cf18394bdc10" 6 
 [OPTIONS_Release_Renesas M16C ConfiguratorR8C]
-"Single Shot" "0d58aad97b2bdc10" 5 
+"Single Shot" "0137cf18394bdc10" 6 
 [OPTIONS_Release_Renesas OptLinker]
-"Single Shot" "0d58aad97b2bdc10" 4 
+"Single Shot" "051f1028394bdc10" 5 
 [OPTIONS_Release]
 "" 0 
-"[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] " 5 
-"[V|VERSION|1] [S|LIST|L|M] [B|INSPECTOR|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DISABLES_MESSAGE|1] " 3 
+"[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] " 6 
+"[V|VERSION|1] [S|LANG|CPP] [S|OUTPUT|OBJECTCODE] [B|INSPECTOR|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [S|MISRA|ALL] [B|SILENT|1]
+" 2 
+"[V|VERSION|1] [S|LIST|L|M] [B|INSPECTOR|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DISABLES_MESSAGE|1] " 4 
 "[V|VERSION|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [S|MODE|BUILD/CHANGED]" 1 
-"[V|VERSION|1] [S|OUTPUT|OBJECTCODE] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|INSPECTOR|1] [B|SILENT|1] " 2 
-"[V|VERSION|6] [B|OPTIMIZE|0] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|OTHER|^"-change_message=information=1100,1322,1410^"] [S|FORM|STYPE] [B|TOTAL_SIZE|1] [B|STACK|1] " 4 
+"[V|VERSION|1] [S|OUTPUT|OBJECTCODE] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|INSPECTOR|1] [B|SILENT|1] " 3 
+"[V|VERSION|6] [B|OPTIMIZE|0] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|OTHER|^"-change_message=information=1100,1322,1410^"] [S|FORM|STYPE] [B|TOTAL_SIZE|1] [B|STACK|1] " 5 
 [EXCLUDED_FILES_Release]
 [LINKAGE_ORDER_Release]
 "D:\yoshiaki\devel\MDD\controller_model_cpp\Release\ncrt0.r30" 
