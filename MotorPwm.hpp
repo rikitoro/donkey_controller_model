@@ -10,6 +10,4 @@ class MotorPwm : public Accelerator {
 		~MotorPwm();
 };
 
-
-
 #endif // __MOTORPWM
