@@ -1,9 +1,13 @@
 #include "RotaryEncoder.hpp"
-#include "encoder_driver.h"
+
+
 
 extern "C" {
 	extern int get_r_motor_speed();
 }
+
+#include "encoder_driver.h"
+
 
 RotaryEncoder::RotaryEncoder()
 {
