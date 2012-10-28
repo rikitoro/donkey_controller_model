@@ -1,4 +1,4 @@
-Optimizing Linkage Editor (V.10.01.00.000)        28-Oct-2012 10:03:37
+Optimizing Linkage Editor (V.10.01.00.000)        28-Oct-2012 10:34:49
 
 *** Options ***
 
@@ -13,6 +13,7 @@ Optimizing Linkage Editor (V.10.01.00.000)        28-Oct-2012 10:03:37
 -total_size
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\Accelerator.obj"
 -library="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\controller_model_cpp.lib"
+-input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\ControlMethod.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\encoder_driver.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\encoder_driver_test.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\led_driver.obj"
@@ -87,9 +88,9 @@ rom_FE
 rom_FO
                                   0000f02a  0000f02a         0   1
 C$VTBL
-                                  0000f02a  0000f0b9        90   2
+                                  0000f02a  0000f0d1        a8   2
 program
-                                  000f0000  000f182b      182c   2
+                                  000f0000  000f18ad      18ae   2
 VARIABLE_VECTOR
                                   000ffe00  000ffeff       100   1
 FIXED_VECTOR

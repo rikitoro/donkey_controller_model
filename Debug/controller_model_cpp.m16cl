@@ -8,6 +8,7 @@
 -total_size
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\Accelerator.obj"
 -library="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\controller_model_cpp.lib"
+-input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\ControlMethod.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\encoder_driver.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\encoder_driver_test.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\led_driver.obj"
