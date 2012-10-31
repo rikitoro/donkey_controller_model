@@ -1,4 +1,3 @@
--noprelink
 -nomessage
 -list="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\controller_model_cpp.map"
 -nooptimize
@@ -6,11 +5,11 @@
 -nologo
 -stack
 -total_size
--input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\Accelerator.obj"
 -library="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\controller_model_cpp.lib"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\ControlMethod.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\encoder_driver.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\encoder_driver_test.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\init_devices.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\led_driver.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\led_driver_test.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\model_test.obj"
@@ -19,8 +18,8 @@
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\MotorPwm.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\MotorSpeed.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\ncrt0.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\ProportionalControl.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\RotaryEncoder.obj"
--input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\SpeedMeter.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\switch_driver.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\switch_driver_test.obj"
 -input="D:\yoshiaki\devel\MDD\controller_model_cpp\Debug\utility.obj"

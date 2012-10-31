@@ -1,2 +1,4 @@
 ncrt0.a30
 sfr29.h
+
+Debug/*.*

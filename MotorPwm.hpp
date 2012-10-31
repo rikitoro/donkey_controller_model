@@ -1,9 +1,9 @@
 #ifndef __MOTORPWM
 #define __MOTORPWM
 
-#include "Accelerator.hpp"
+//#include "Accelerator.hpp"
 
-class MotorPwm : public Accelerator {
+class MotorPwm {//: public Accelerator {
 	public:
 		MotorPwm();
 		void setLevel(int level);

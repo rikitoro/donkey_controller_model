@@ -1,7 +1,5 @@
 #include "RotaryEncoder.hpp"
 
-
-
 extern "C" {
 	extern int get_r_motor_speed();
 }

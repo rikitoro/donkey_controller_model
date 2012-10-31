@@ -4,3 +4,7 @@ Accelerator::Accelerator()
 {
 }
 
+void Accelerator::setLevel(int level)
+{
+}
+

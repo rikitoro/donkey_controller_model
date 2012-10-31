@@ -1,9 +1,9 @@
 #ifndef __ROTARYENCODER
 #define __ROTARYENCODER
 
-#include "SpeedMeter.hpp"
+//#include "SpeedMeter.hpp"
 
-class RotaryEncoder : public SpeedMeter
+class RotaryEncoder //: public SpeedMeter
 {
 	public:
 		RotaryEncoder();

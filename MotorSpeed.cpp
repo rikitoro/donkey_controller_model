@@ -1,22 +1,28 @@
 #include "MotorSpeed.hpp"
 
-MotorSpeed::MotorSpeed(const SpeedMeter* speedMeter)
+/*
+export template<class SpeedMeter>
+	MotorSpeed<SpeedMeter>::MotorSpeed(const SpeedMeter* speedMeter)
 {
 	this->speedMeter = speedMeter;
 }
 
-void MotorSpeed::setTargetValue(int targetValue)
+export template<class SpeedMeter>
+	void MotorSpeed<SpeedMeter>::setTargetValue(int targetValue)
 {
 	this->targetValue = targetValue;
 }
 
 
-int MotorSpeed::getTargetVale()
+export template<class SpeedMeter>
+	int MotorSpeed<SpeedMeter>::getTargetVale()
 {
 	return this->targetValue;
 }
 
-int MotorSpeed::getValue()
+export template<class SpeedMeter>
+	int MotorSpeed<SpeedMeter>::getValue()
 {
 	return this->speedMeter->getValue();
 }
+*/
